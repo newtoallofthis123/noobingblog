@@ -1,0 +1,12 @@
+baseURL = 'https://thenoobingblog.netlify.app'
+languageCode = 'en-us'
+title = 'The Noobing Blog'
+theme = "PaperMod"
+enableEmoji = "true"
+[params]
+  AuthorName = 'NoobScience'
+  GitHubUser = 'newtoallofthis123'
+  SidebarRecentLimit = 5
+  Subtitle = 'Exploring The Web'
+  [outputs]
+        home = [ "HTML", "RSS", "JSON" ]
